@@ -1,0 +1,58 @@
+{
+  "nama_asisten": "ForYuu Creative",
+  "sapaan": "Halo! Saya ForYuu Creative, asisten yang mengenal profil dan proyek-proyek ForYuu Creative. Coba tanya, misalnya: 'Siapa ForYuu Creative?' atau 'Proyek apa saja yang pernah dibuat?'",
+  "persona": "Kamu adalah ForYuu Creative, asisten AI ramah yang menjawab pertanyaan seputar profil, studi, dan proyek web milik ForYuu Creative.",
+  "fallback": "Maaf, saya belum punya data tentang itu. Coba ketik /topik untuk melihat hal-hal yang saya ketahui.",
+  "entries": [
+    {
+      "judul": "Profil ForYuu Creative",
+      "kata_kunci": ["foryuu", "creative", "siapa", "nama", "profil", "nim", "mahasiswa"],
+      "isi": "ForYuu Creative (NIM 2301100037) adalah mahasiswa Program Studi Pendidikan Informatika di UPGRISBA. Ia gemar membangun aplikasi web untuk kebutuhan sekolah dan instansi."
+    },
+    {
+      "judul": "Pendidikan dan kampus",
+      "kata_kunci": ["kuliah", "kampus", "prodi", "jurusan", "universitas", "upgrisba", "pendidikan informatika"],
+      "isi": "ForYuu Creative kuliah di Program Studi Pendidikan Informatika, UPGRISBA. Penelitian skripsinya mengambil studi kasus sistem informasi sekolah berbasis web di MAN 1 Pesisir Selatan menggunakan Laravel 12."
+    },
+    {
+      "judul": "Teknologi yang dikuasai",
+      "kata_kunci": ["teknologi", "bahasa", "pemrograman", "skill", "keahlian", "php", "laravel", "tailwind", "python", "framework"],
+      "isi": "Teknologi yang sering dipakai ForYuu Creative: PHP native (OOP + PDO), Laravel 12, Livewire 3, Tailwind CSS, JavaScript vanilla, dan MySQL/MariaDB. Sekarang ia juga mulai belajar Python untuk pengembangan asisten AI."
+    },
+    {
+      "judul": "Daftar proyek yang pernah dibuat",
+      "kata_kunci": ["proyek", "project", "pernah", "dibuat", "daftar", "portofolio", "karya", "apa saja"],
+      "isi": "Proyek web yang pernah dibuat ForYuu Creative: sistem absensi SMKN 3 Pariaman, sistem keuangan SMA 2 Bayang, sistem manajemen perpustakaan, Toko Sekolah (gudang alat sekolah), PLUT KUMKM Kota Padang, aplikasi Perangkat Ajar PBM, dan sistem informasi sekolah MAN 1 Pesisir Selatan untuk skripsi."
+    },
+    {
+      "judul": "Proyek sistem absensi",
+      "kata_kunci": ["absensi", "kehadiran", "qr", "kartu pelajar", "smkn", "pariaman", "siswa"],
+      "isi": "Sistem Manajemen Absensi SMKN 3 Pariaman dibuat dengan PHP native, PDO, dan Tailwind. Fitur utamanya mencakup QR code siswa dan kartu pelajar. Ada juga sistem absensi dan nilai untuk satu kelas (X APAT A) di SMK Negeri 3."
+    },
+    {
+      "judul": "Proyek sistem keuangan sekolah",
+      "kata_kunci": ["keuangan", "spp", "bendahara", "bos", "rab", "sma", "bayang", "pemasukan", "pengeluaran"],
+      "isi": "Sistem manajemen keuangan SMA 2 Bayang dibuat dengan PHP native dan Tailwind CSS. Isinya pengelolaan SPP siswa serta pemasukan dan pengeluaran (RAB/BOS), dengan pengguna Admin dan Bendahara."
+    },
+    {
+      "judul": "Proyek perpustakaan dan toko sekolah",
+      "kata_kunci": ["perpustakaan", "buku", "toko", "gudang", "stok", "barang", "inventaris"],
+      "isi": "Sistem Manajemen Perpustakaan dibangun dengan PHP Native OOP, PDO, dan MySQL dengan struktur modular mirip MVC. Proyek Toko Sekolah adalah sistem gudang alat sekolah berbasis Laravel 12, MySQL, dan Tailwind yang dijalankan lewat XAMPP."
+    },
+    {
+      "judul": "Proyek PLUT KUMKM dan Perangkat Ajar",
+      "kata_kunci": ["plut", "kumkm", "umkm", "laravel", "livewire", "perangkat", "ajar", "pbm", "dokumen"],
+      "isi": "PLUT KUMKM Kota Padang adalah proyek web berbasis Laravel 12, Livewire 3, dan Tailwind. Selain itu ada aplikasi lokal Perangkat Ajar PBM untuk SMK Negeri 3 Pariaman, yaitu generator dokumen perangkat ajar berbasis HTML/JS."
+    },
+    {
+      "judul": "Tentang proyek AI chat assistant ini",
+      "kata_kunci": ["chat", "asisten", "ai", "proyek", "akhir", "tf-idf", "rag", "llm", "virtual", "environment", "venv"],
+      "isi": "Proyek ini adalah asisten AI berbasis terminal yang menjawab dari data sendiri (data/knowledge.json). Tanpa API key ia memakai pencarian TF-IDF. Dengan API key, data yang relevan dikirim ke model bahasa sebagai konteks (pola RAG). Proyek dijalankan di dalam virtual environment Python."
+    },
+    {
+      "judul": "Cara menjalankan program",
+      "kata_kunci": ["jalankan", "menjalankan", "install", "instal", "cara", "run", "pakai", "gunakan", "mulai"],
+      "isi": "Buat virtual environment dengan 'python -m venv .venv', aktifkan, lalu 'pip install -r requirements.txt' dan jalankan 'python chat_assistant.py'. Untuk mode LLM, salin .env.example menjadi .env dan isi ANTHROPIC_API_KEY."
+    }
+  ]
+}

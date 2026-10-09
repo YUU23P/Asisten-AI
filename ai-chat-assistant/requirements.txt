@@ -1,0 +1,4 @@
+# Opsional: hanya dibutuhkan untuk mode LLM.
+# Mode offline tetap berjalan tanpa paket-paket ini.
+anthropic>=0.40.0
+python-dotenv>=1.0.0
